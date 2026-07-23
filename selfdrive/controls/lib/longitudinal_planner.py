@@ -18,7 +18,7 @@ from dragonpilot.selfdrive.controls.lib.acm import ACM
 from dragonpilot.selfdrive.controls.lib.aem import AEM
 from dragonpilot.selfdrive.controls.lib.apm import APM
 
-A_CRUISE_MAX_VALS = [1.8, 0.7, 0.13, 0.07]
+A_CRUISE_MAX_VALS = [1.8, 0.7, 0.10, 0.05]
 A_CRUISE_MAX_BP = [0., 10.0, 25., 40.]
 CONTROL_N_T_IDX = ModelConstants.T_IDXS[:CONTROL_N]
 ALLOW_THROTTLE_THRESHOLD = 0.4
